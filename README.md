@@ -55,3 +55,22 @@
 
 ### 4.3 브랜치변경
 `git checkout 브랜치명`
+=======
+`git checkout 브랜치명`
+
+### 4.4 브랜치 생성후변경
+`git checkout -b 브랜치명`
+
+
+## 5. git 원격 레포지토리 다운로드
+
+### 5.1 원격저장소 정보 가져오기
+`git fetch origin 브랜치명`
+
+### 5.2 원격저장소정보 로컬브랜치와 병합
+`git merge origin 브랜치명/master브랜치`
+
+> 로그를 확인하여 head 주소값을 가져와 병합할수도 있음
+
+### 5.3 레포지토리 통합 다운
+`git pull origin 브랜치명`
