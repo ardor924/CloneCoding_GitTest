@@ -1,4 +1,4 @@
-# GitHub
+# Git
 
 
 ## 1. git 초기설정
@@ -35,3 +35,9 @@
 
 ### 2.5 깃허브 레포지토리에 업로드
 `git push origin master`
+
+
+## 3. git 수정
+
+### 3.1 수정변경 상황이 있는지 상태확인
+`git status`
