@@ -40,4 +40,36 @@
 ## 3. git 수정
 
 ### 3.1 수정변경 상황이 있는지 상태확인
-`git status`
+`git status` `git add . `  <- 초기 스테이터스는 빨간색 add 하면 초록색으로 바뀜
+`git log` <- 이전 커밋내역 확인가능
+
+
+## 4. git 브랜치관리
+
+### 4.1 브랜치목록 확인
+`git branch`
+`git branch -a` <- 원격저장소(빨간색)의 브랜치도 확인가능
+
+### 4.2 브랜치생성
+`git branch 브랜치명`
+
+### 4.3 브랜치변경
+`git checkout 브랜치명`
+
+### 4.4 브랜치 생성후변경
+`git checkout -b 브랜치명`
+
+
+## 5. git 원격 레포지토리 다운로드
+
+### 5.1 원격저장소 정보 가져오기
+`git fetch origin 브랜치명`
+
+### 5.2 원격저장소정보 로컬브랜치와 병합
+`git merge origin 브랜치명/master브랜치`
+
+> 로그를 확인하여 head 주소값을 가져와 병합할수도 있음
+
+### 5.3 레포지토리 통합 다운
+`git pull origin 브랜치명`
+
